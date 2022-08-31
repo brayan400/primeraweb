@@ -88,7 +88,7 @@ p{
     color: azure;
 }
 footer{
-    background-color: black;
+    background-color:black;
     color: azure;
 }
 footer button{
@@ -100,6 +100,7 @@ footer button{
 }
 li a{
     color: #cb4c46;
+    list-style: none;
 }
 address{
     display: inline-block;
