@@ -1,0 +1,107 @@
+*{
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+    text-decoration:none;
+}
+main{
+    background-color:rgba(0, 0, 0, 0.952);
+    margin: 0px 0px;
+    padding: 0px;
+}
+.logo{
+    color: #62152d;
+    font-size: 100px;
+}
+h3,h5{
+    color:azure;
+}
+.logo:hover{
+    color: black;
+}
+.sublogo{
+    color:#62152d;
+    font-size: 30px;
+}
+.sublogo:hover{
+    color: black;
+}
+a{
+    color:black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav a:hover{
+    background-color: #62152d;
+    color:azure;
+    border-radius: 5px;
+}
+.setctwo i:hover{
+    background-color: #cb4c46;
+    width: 55px;
+    color: black;
+    border-radius: 100px;
+}
+.redes a:hover{
+    color:azure;
+}
+.setcfour button{
+    background-color:#62152d;
+    color:azure;
+    border-radius: 15px;
+    width: 200px;
+}
+.setcfour button:hover{
+    border-color: #cb4c46;
+}
+.pro i{
+    color: azure;
+    font-size: 36px;
+}
+.pro{
+    display: inline-table;
+    background-color: #62152d;
+    color: azure;
+    margin: 12px;
+    border-radius: 15px;
+    width: 150px;
+    height: 190px;
+}
+.pro:hover{
+    box-shadow: 5px 5px #cb4c46;
+
+}
+.edit{
+    display: inline-flex;
+    background-color: #62152d;
+    color: azure;
+    margin: 12px;
+    border-radius: 15px;
+    width: 170px;
+}
+.edit:hover{
+    box-shadow: 5px 5px #cb4c46;
+}
+p{
+    color: azure;
+}
+footer{
+    background-color: black;
+    color: azure;
+}
+footer button{
+    border-radius: 6px;
+    border-color: #cb4c46;
+}
+.formulario{
+    display: inline-table;
+}
+li a{
+    color: #cb4c46;
+}
+address{
+    display: inline-block;
+    color: azure;
+}
