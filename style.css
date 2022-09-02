@@ -2,36 +2,50 @@
     font-family: Montserrat;
     font-size: 18px;
     text-align: center;
-    margin: 0px;
-    padding: 10px 0px;
     text-decoration:none;
 }
-main{
-    background-color:rgba(0, 0, 0, 0.952);
-    margin: 0px 0px;
-    padding: 0px;
+body{
+    background-image: url(img/22293-oscuros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .logo{
-    color: #62152d;
-    font-size: 100px;
-}
-h3,h5{
-    color:azure;
-}
-.logo:hover{
     color: black;
+    font-size: 80px;
 }
 .sublogo{
-    color:#62152d;
-    font-size: 30px;
+    color:black;
+    font-size: 25px;
 }
-.sublogo:hover{
-    color: black;
+nav{
+    display:inline-block;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 3px;
+    background-size: auto;
+    padding: 15px;
+    
 }
 a{
     color:black;
     padding-left: 30px;
     padding-right: 30px;
+}
+.setone{
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 4px;
+    width: 700px;
+    display: inline-block;
+    padding: 12px;
+    margin: 12px;
+}
+.setctwo{
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 4px;
+    background-size: auto;
+}
+h3,h5{
+    color:#62152d;
 }
 nav a:hover{
     background-color: #62152d;
@@ -83,9 +97,6 @@ nav a:hover{
 }
 .edit:hover{
     box-shadow: 5px 5px #cb4c46;
-}
-p{
-    color: azure;
 }
 footer{
     background-color:black;
