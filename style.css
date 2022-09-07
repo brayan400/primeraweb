@@ -9,57 +9,70 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color:#62152d;
+    margin: 0px;
+    padding: 0px;
 }
 .logo{
-    color: black;
+    color:azure;
     font-size: 80px;
+    margin: 0px;
+    padding: 0px;
 }
 .sublogo{
-    color:black;
+    color:azure;
     font-size: 25px;
+    margin: 0px;
 }
 nav{
     display:inline-block;
     background-color: rgba(255, 255, 255, 0.26);
-    border-radius: 3px;
+    border-radius: 0px 0px 6px 6px;
     background-size: auto;
-    padding: 15px;
+    padding: 12px 50px;
+    margin: 0px 0px 12px 0px;
     
+}
+section{
+    margin: 12px;
+    padding: 12px;
 }
 a{
     color:black;
     padding-left: 30px;
     padding-right: 30px;
+    margin: 0px;
 }
 .setone{
     background-color: rgba(255, 255, 255, 0.26);
-    border-radius: 4px;
-    width: 700px;
-    display: inline-block;
+    border-radius: 6px;
     padding: 12px;
     margin: 12px;
 }
 .setctwo{
     background-color: rgba(255, 255, 255, 0.26);
-    border-radius: 4px;
-    background-size: auto;
+    border-radius: 6px;
+    margin: 12px;
+    padding:12px;
+}
+.setcthree{
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 6px;
+    margin: 12px;
+    padding: 12px;
 }
 h3,h5{
     color:#62152d;
 }
-nav a:hover{
-    background-color: #62152d;
-    color:azure;
-    border-radius: 5px;
-}
-.setctwo i:hover{
-    background-color: #cb4c46;
-    width: 55px;
-    color: black;
-    border-radius: 100px;
-}
-.redes a:hover{
-    color:azure;
+.setcfour{
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 6px;
+    margin: 12px;
+    padding: 12px;
 }
 .setcfour button{
     background-color:#62152d;
@@ -67,36 +80,26 @@ nav a:hover{
     border-radius: 15px;
     width: 200px;
 }
-.setcfour button:hover{
-    border-color: #cb4c46;
-}
 .pro i{
     color: azure;
-    font-size: 36px;
+    font-size: 30px;
 }
 .pro{
-    display: inline-table;
+    display: inline-block;
     background-color: #62152d;
     color: azure;
-    margin: 12px;
-    border-radius: 15px;
-    width: 150px;
-    height: 190px;
-}
-.pro:hover{
-    box-shadow: 5px 5px #cb4c46;
-
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
 }
 .edit{
-    display: inline-flex;
+    display: inline-block;
     background-color: #62152d;
     color: azure;
-    margin: 12px;
-    border-radius: 15px;
-    width: 170px;
-}
-.edit:hover{
-    box-shadow: 5px 5px #cb4c46;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+
 }
 footer{
     background-color:black;
