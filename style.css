@@ -5,7 +5,7 @@
     text-decoration:none;
 }
 body{
-    background-image: url(img/22293-oscuros.jpg);
+    /*background-image: url(img/22293-oscuros.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,23 +29,17 @@ header{
     margin: 0px;
 }
 nav{
-    display:inline-block;
     background-color: rgba(255, 255, 255, 0.26);
     border-radius: 0px 0px 6px 6px;
     background-size: auto;
-    padding: 12px 50px;
-    margin: 0px 0px 12px 0px;
-    
-}
-section{
-    margin: 12px;
     padding: 12px;
+    
 }
 a{
     color:black;
     padding-left: 30px;
     padding-right: 30px;
-    margin: 0px;
+    margin: 22px;
 }
 .setone{
     background-color: rgba(255, 255, 255, 0.26);
@@ -76,8 +70,9 @@ h3,h5{
 }
 .setcfour button{
     background-color:#62152d;
+    border: none;
     color:azure;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 200px;
 }
 .pro i{
@@ -101,6 +96,9 @@ h3,h5{
     margin: 10px;
 
 }
+/*.redes{
+    float: right;
+}
 footer{
     background-color:black;
     color: azure;
@@ -111,6 +109,7 @@ footer button{
 }
 .formulario{
     display: inline-table;
+    float: left;
 }
 li a{
     color: #cb4c46;
@@ -119,4 +118,4 @@ li a{
 address{
     display: inline-block;
     color: azure;
-}
+}*/
